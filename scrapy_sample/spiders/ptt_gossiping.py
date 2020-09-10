@@ -8,7 +8,7 @@ class PttGossipingSpider(scrapy.Spider):
     allowed_domains = ['www.ptt.cc/bbs/Gossiping']
     start_urls = ['http://www.ptt.cc/bbs/Gossiping']
 
-    max_page = 1
+    max_page = 10
     page_count = 0
 
     def parse(self, response):
